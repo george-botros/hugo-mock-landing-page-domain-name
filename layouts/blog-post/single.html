@@ -1,0 +1,67 @@
+{{ define "main" }}
+<main class="container mt-5">
+    <!-- Blog Post Header -->
+    <article class="blog-post">
+        <header class="blog-post-header text-center mb-4">
+            <h1 class="blog-post-title">{{ .Title }}</h1>
+            {{ with .Params.description }}
+                <p class="blog-post-description text-muted">{{ . }}</p>
+            {{ end }}
+        </header>
+
+        <!-- Blog Post Content -->
+        <section class="blog-post-content">
+            {{ .Content }}
+        </section>
+
+        <!-- Blog Post Metadata (Categories & Tags) -->
+        <footer class="blog-post-footer text-center mt-4">
+            {{ with .Params.categories }}
+                <p>Categories:
+                    {{ range . }}
+                        <a class="badge bg-success">{{ . }}</a>
+                    {{ end }}
+                </p>
+            {{ end }}
+
+            {{ with .Params.tags }}
+                <p>Tags:
+                    {{ range . }}
+                        <a class="badge bg-info">#{{ . }}</a>
+                    {{ end }}
+                </p>
+            {{ end }}
+        </footer>
+    </article>
+</main>
+
+<!-- Basic Styling -->
+<style>
+.blog-post-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.blog-post-description {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+}
+
+.blog-post-content {
+    line-height: 1.8;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.blog-post-footer a {
+    margin: 0 0.25rem;
+    text-decoration: none;
+}
+
+.blog-post-footer a:hover {
+    text-decoration: underline;
+}
+</style>
+{{ end }}
