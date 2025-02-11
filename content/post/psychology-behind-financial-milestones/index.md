@@ -91,5 +91,5 @@ Leverage our progress tracking tools to visualize your achievements with graphs,
 
 Financial milestones aren’t just about the numbers—they’re about behavior, mindset, and psychology. By understanding what motivates you, setting specific goals, and tracking your progress, you can transform your financial aspirations into achievements.
 
-**Ready to set your goals and achieve them with confidence? [Start using BetterSpend today](#)!**
+**Ready to set your goals and achieve them with confidence? [Start using BetterSpend today](../../)!**
 
