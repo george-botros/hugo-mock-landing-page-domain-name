@@ -1,8 +1,8 @@
 baseURL = 'https://filipecarneiro.github.io/hugo-bootstrap-theme/'
 title = "BetterSpend"
 author = "George Botros"
+year = "Class of 2026"
 copyright = "Open-source MIT Licensed."
-
 timeZone = 'Europe/London'
 
 # Multilingual
@@ -47,3 +47,7 @@ enableEmoji = true
   [[module.mounts]]
     source = "static"
     target = "static"
+
+[params]
+  year = "Class of 2026"
+  author = "George Botros"
