@@ -12,4 +12,4 @@ menu:
 
 💼 [LinkedIn](https://linkedin.com/in/georgebotros02)
 
-👾 [Open an issue](https://github.com/george-botros/hugo-mock-landing-page-autodeployed/issues/new) on GitHub.
+👾 [Open an issue](https://github.com/george-botros/hugo-mock-landing-page-domain-name/issues/new) on GitHub.
