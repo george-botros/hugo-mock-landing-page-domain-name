@@ -1,3 +1,3 @@
 User-agent: *
 Disallow: /404.html
-Sitemap: georgebotros.best/sitemap.xml
+Sitemap: https://georgebotros.best/sitemap.xml
